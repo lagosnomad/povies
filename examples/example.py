@@ -1,3 +1,7 @@
+"""
+Example usage of wrapper
+"""
+
 import povies
 
 p = povies.Povies()
@@ -12,4 +16,7 @@ p = povies.Povies()
 # print p.related(1)
 
 # Search for a movie
-print p.search("ninja")
+# print p.search("ninja")
+
+# Download a movie torrent using the movie_id
+print p.download(23)
